@@ -1,5 +1,7 @@
 # React Tab Controller
 
+[![NPM](https://img.shields.io/npm/v/react-tab-controller.svg)](https://www.npmjs.com/package/react-tab-controller)
+
 > Simple roving `tabIndex` for React.
 
 ## Motivation
