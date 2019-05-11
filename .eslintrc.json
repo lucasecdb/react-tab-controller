@@ -1,0 +1,16 @@
+{
+  "extends": "@lucasecdb",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "@typescript-eslint/no-non-null-assertion": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "16.8"
+    }
+  }
+}

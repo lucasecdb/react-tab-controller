@@ -1,0 +1,42 @@
+{
+  "name": "react-tab-controller",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "umd:main": "dist/react-tab-controller.umd.production.js",
+  "module": "dist/react-tab-controller.es.production.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --env=jsdom"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "@lucasecdb/eslint-config": "^0.3.6",
+    "@types/jest": "^24.0.12",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "eslint": "^5.16.0",
+    "husky": "^2.2.0",
+    "prettier": "^1.17.0",
+    "pretty-quick": "^1.10.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "tsdx": "^0.5.9",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "tiny-warning": "^1.0.2"
+  }
+}
