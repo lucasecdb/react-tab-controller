@@ -14,7 +14,7 @@
     "test": "tsdx test --env=jsdom"
   },
   "peerDependencies": {
-    "react": ">=16.8"
+    "react": "^16.8.0"
   },
   "husky": {
     "hooks": {
