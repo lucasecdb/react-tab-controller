@@ -1,0 +1,8 @@
+scripts:
+  beforeStage: yarn update-changelog
+git:
+  tagName: 'v${version}'
+  tagAnnotation: 'v${version}'
+  commitMessage: 'v${version}'
+npm:
+  publish: true
