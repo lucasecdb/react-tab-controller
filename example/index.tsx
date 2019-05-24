@@ -1,7 +1,7 @@
 import 'react-app-polyfill/ie11'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import TabController from '../.'
+import { TabController } from '../.'
 
 import RadioGroup from './RadioGroup'
 import RadioButton from './RadioButton'
