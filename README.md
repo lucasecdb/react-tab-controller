@@ -28,7 +28,7 @@ npm install react-tab-controller
 
 ```jsx
 import React, { useRef } from 'react'
-import TabController, { useControlledTabIndex } from 'react-tab-controller'
+import { TabController, useControlledTabIndex } from 'react-tab-controller'
 
 const MyRadioGroup = () => {
   return (
