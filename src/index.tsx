@@ -116,7 +116,7 @@ const reducer = (state: State, action: Action) => {
   }
 }
 
-const TabController: React.FunctionComponent = ({ children }) => {
+export const TabController: React.FunctionComponent = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, {
     selectedId: null,
     tabStops: [],
@@ -207,5 +207,3 @@ export const useControlledTabIndex = (
 
   return { onKeyDown, tabIndex }
 }
-
-export default TabController
