@@ -26,6 +26,10 @@ npm install react-tab-controller
 
 ## Usage
 
+You can also try out the live demo at CodeSandbox!
+
+[![Edit radio-example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/radioexample-2s9gi?fontsize=14)
+
 ```jsx
 import React, { useRef } from 'react'
 import { TabController, useControlledTabIndex } from 'react-tab-controller'
