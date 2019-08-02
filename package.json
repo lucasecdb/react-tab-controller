@@ -1,6 +1,7 @@
 {
-  "name": "react-tab-controller",
+  "name": "@lucasecdb/react-tab-controller",
   "version": "0.2.0",
+  "repository": "git://github.com/lucasecdb/react-tab-controller.git",
   "main": "dist/index.js",
   "umd:main": "dist/react-tab-controller.umd.production.js",
   "module": "dist/react-tab-controller.es.production.js",
@@ -41,5 +42,8 @@
   },
   "dependencies": {
     "tiny-warning": "^1.0.2"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   }
 }
