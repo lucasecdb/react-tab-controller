@@ -1,7 +1,5 @@
 # React Tab Controller
 
-[![NPM](https://img.shields.io/npm/v/react-tab-controller.svg)](https://www.npmjs.com/package/react-tab-controller)
-
 > Simple roving `tabIndex` for React.
 
 ## Motivation
@@ -19,9 +17,9 @@ the keyboard arrow keys to jump through the items in the group.
 ## Installation
 
 ```sh
-yarn add react-tab-controller
+yarn add lucasecdb/react-tab-controller
 # or
-npm install react-tab-controller
+npm install lucasecdb/react-tab-controller
 ```
 
 ## Usage
@@ -32,7 +30,10 @@ You can also try out the live demo at CodeSandbox!
 
 ```jsx
 import React, { useRef } from 'react'
-import { TabController, useControlledTabIndex } from 'react-tab-controller'
+import {
+  TabController,
+  useControlledTabIndex,
+} from '@lucasecdb/react-tab-controller'
 
 const MyRadioGroup = () => {
   return (
@@ -50,11 +51,7 @@ const RadioButton = ({ label }) => {
   const { onKeyDown, tabIndex } = useControlledTabIndex(buttonRef, label)
 
   return (
-    <div
-      role="radio"
-      tabIndex={tabIndex}
-      onKeyDown={onKeyDown}
-    >
+    <div role="radio" tabIndex={tabIndex} onKeyDown={onKeyDown}>
       {label}
     </div>
   )
