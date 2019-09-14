@@ -17,9 +17,9 @@ the keyboard arrow keys to jump through the items in the group.
 ## Installation
 
 ```sh
-yarn add lucasecdb/react-tab-controller
+yarn add react-tab-controller
 # or
-npm install lucasecdb/react-tab-controller
+npm install react-tab-controller
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ import React, { useRef } from 'react'
 import {
   TabController,
   useControlledTabIndex,
-} from '@lucasecdb/react-tab-controller'
+} from 'react-tab-controller'
 
 const MyRadioGroup = () => {
   return (
